@@ -3,13 +3,17 @@
 body{
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
-
+    font-family: 'Inter', sans-serif;
+}
+header{
+    max-width:1320px ;
 }
 .banner{
     background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./resources/Banner\ Image.png') ;
     background-size: cover;
-    background-position: center;
+background-position: center;
     border-radius: 16px;
+ 
 }
 .banner-greet{
     color: #FFF;
@@ -27,3 +31,35 @@ font-size: 75px;
 font-weight: 900;
 padding-bottom: 150px;
 }
+/* main start */
+
+
+/* discount start */
+.discount-offer{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+     
+}
+.discount-description{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.discount-cat{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.discount-img{
+    margin: 40px 320px;
+}
+/* discount end */
