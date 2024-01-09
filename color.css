@@ -108,3 +108,33 @@ border-radius: 5px;
     padding-bottom: 60px;
 }
 /* welcome section end */
+/* info start */
+.info{
+background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); ;
+margin: 120px ;
+border-radius: 10px;
+}
+.info-color{
+    color: #F00
+}
+.info-content{
+    text-align: center;
+    padding-top: 100px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.info-btn{
+    border-radius: 8px;
+background: #F00;
+padding: 16px 32px;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+margin-left: 500px;
+}
+
+/* infp end */
