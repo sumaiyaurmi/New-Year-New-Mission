@@ -63,3 +63,42 @@ padding-bottom: 150px;
     margin: 40px 320px;
 }
 /* discount end */
+/* welcome section start */
+.welcome{
+background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Vectorrr.png');
+background-repeat: no-repeat;
+background-size: cover;
+padding-left: 130px;
+display: flex;
+border-radius: 5px;
+}
+.welcome-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    padding-top: 126px;
+}
+.welcome-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.welcome-btn{
+    text-align: center;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    border: 0;
+}
+.welcome-img{
+    padding-top: 70px;
+    padding-left: 40px;
+}
+/* welcome section end */
